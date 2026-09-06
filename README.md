@@ -8,28 +8,29 @@ Codeforces, LeetCode, CSES, CodeChef &amp; GeeksforGeeks solutions, organized cl
 
 Synced automatically by SolveBase.
 
-**Total solved: 2**
+**Total solved: 23**
 
 ## Codeforces
 
 Solutions by [kuni02q](https://codeforces.com/profile/kuni02q), organized by difficulty rating.
 
-**Solved: 1**
+**Solved: 23**
 
 | Difficulty | Solved |
 | --- | --- |
-| [800](./codeforces/800) | 1 |
+| [800](./codeforces/800) | 22 |
+| [900](./codeforces/900) | 1 |
 
 
 ## LeetCode
 
 Solutions organized by primary topic folder.
 
-**Solved: 1**
+**Solved: 0**
 
 | Topic | Solved |
 | --- | --- |
-| [hash-table](./leetcode/hash-table) | 1 |
+| — | 0 |
 
 
 ## CSES
