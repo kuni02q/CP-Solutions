@@ -1,0 +1,34 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
+public class ILoveUsername_155A {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int n = Integer.parseInt(br.readLine());
+
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int answer = 0;
+        int max = Integer.parseInt(st.nextToken());
+        int min = max;
+
+        for (int i = 1; i < n; i++) {
+            int recent = Integer.parseInt(st.nextToken());
+
+            if (recent < min){
+                answer++;
+                min = recent;
+            } else if (recent> max) {
+                answer++;
+                max = recent;
+            }
+
+
+        }
+
+        System.out.println(answer);
+
+    }
+}
