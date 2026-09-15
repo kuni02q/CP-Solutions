@@ -1,7 +1,6 @@
 class Solution {
     public boolean containsDuplicate(int[] nums) {
 
-        Map<Integer, Integer> map = new HashMap<>();
         Set<Integer> set = new HashSet<>();
 
 
